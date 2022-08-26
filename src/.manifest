@@ -1,0 +1,69 @@
+{
+  "roots": [
+    "lego"
+  ],
+  "metadata": {
+    "required_builtins": {
+      "builtin2": [
+        {
+          "name": "ds.object",
+          "decl": {
+            "args": [
+              {
+                "type": "any"
+              }
+            ],
+            "result": {
+              "type": "any"
+            },
+            "type": "function"
+          }
+        }
+      ],
+      "builtin4": [
+        {
+          "name": "ds.check_permission",
+          "decl": {
+            "args": [
+              {
+                "type": "any"
+              },
+              {
+                "type": "any"
+              }
+            ],
+            "result": {
+              "type": "any"
+            },
+            "type": "function"
+          }
+        },
+        {
+          "name": "ds.check_relation",
+          "decl": {
+            "args": [
+              {
+                "type": "any"
+              }
+            ],
+            "result": {
+              "type": "any"
+            },
+            "type": "function"
+          }
+        }
+      ],
+      "builtinDyn": [
+        {
+          "name": "res.list",
+          "decl": {
+            "result": {
+              "type": "any"
+            },
+            "type": "function"
+          }
+        }
+      ]
+    }
+  }
+}
