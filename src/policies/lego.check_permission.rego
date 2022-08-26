@@ -15,7 +15,7 @@ allowed {
 
 	ds.check_permission({
 		"sub_id": user.id,
-		"type": "customer",
+		"obj_type": "customer",
 		"permission": input.resource.permission,
 		"obj_id": customer.id,
 	})

@@ -29,7 +29,7 @@ check_permissions(user, customer, permissions) {
   every permission in permissions {
     ds.check_permission({
       "sub_id": user.id,
-      "type": "customer",
+      "obj_type": "customer",
       "permission": permission,
       "obj_id": customer.id
     })
@@ -62,7 +62,7 @@ is_parent(parentID, childID) {
 } else {
   ds.check_relation({
     "sub_id": parentID,
-    "type": "customer",
+    "obj_type": "customer",
     "relation": "customer-parent",
     "obj_id": childID
   })

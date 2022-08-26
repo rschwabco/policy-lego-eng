@@ -15,7 +15,7 @@ allowed {
 
 	ds.check_relation({
 		"sub_id": user.id,
-		"type": "customer",
+		"obj_type": "customer",
 		"relation": input.resource.relation,
 		"obj_id": customer.id,
 	})
