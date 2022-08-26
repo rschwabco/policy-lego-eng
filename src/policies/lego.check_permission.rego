@@ -5,7 +5,7 @@ default allowed = false
 allowed {
 	user = ds.object({
 		"type": "user",
-		"key": input.user.key,
+		"key": input.user.email,
 	})
 
 	customer = ds.object({
